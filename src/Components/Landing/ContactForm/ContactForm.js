@@ -1,7 +1,7 @@
 import "./contact-form.scss";
-import FormBg from "../../../Assets/images/web-form-img.png";
-import FormBgMobile from "../../../Assets/images/mobile-form-img.png";
-import FormBgTab from "../../../Assets/images/tab-form-img.png";
+import FormBg from "../../../Assets/images/web-form-img.webp";
+import FormBgMobile from "../../../Assets/images/mobile-form-img.webp";
+import FormBgTab from "../../../Assets/images/tab-form-img.webp";
 import { Element } from "react-scroll";
 
 import React from "react";
@@ -21,9 +21,31 @@ function ContactForm() {
           {/* <img className="w-100 contact-bg" src={FormBg} alt="banner backround" /> */}
 
           <picture className="w-100 contact-bg">
-            <source media="(min-width:1200px)" srcSet={FormBg} />
-            <source media="(min-width:768px)" srcSet={FormBgTab} />
-            <img className="w-100" src={FormBgMobile} alt="banner backround" />
+            <source
+              rel="preload"
+              fetchpriority="high"
+              as="image"
+              type="image/webp"
+              media="(min-width:1200px)"
+              srcSet={FormBg}
+            />
+            <source
+              rel="preload"
+              fetchpriority="high"
+              as="image"
+              type="image/webp"
+              media="(min-width:768px)"
+              srcSet={FormBgTab}
+            />
+            <img
+              rel="preload"
+              fetchpriority="high"
+              as="image"
+              type="image/webp"
+              className="w-100"
+              src={FormBgMobile}
+              alt="banner backround"
+            />
           </picture>
           <div className="landing-contact__content">
             <h2 className="section-title text-color-white mb-0">

@@ -1,9 +1,9 @@
 import { Col, Row } from "antd";
 import "./app-development.scss";
 
-import AndroidIcon from "../../../Assets/images/Icon-android.svg";
-import iosIcon from "../../../Assets/images/Icon-ios.svg";
-import reactIcon from "../../../Assets/images/Icon-reactnative.svg";
+import AndroidIcon from "../../../Assets/images/icon-android.webp";
+import iosIcon from "../../../Assets/images/icon-ios.webp";
+import reactIcon from "../../../Assets/images/icon-reactnative.webp";
 
 function AppDevelopment() {
   return (
@@ -15,7 +15,14 @@ function AppDevelopment() {
         </h2>
         <Row gutter={20}>
           <Col md={{ span: 8 }}>
-            <img src={AndroidIcon} alt="Android icon" />
+            <img
+              rel="preload"
+              fetchpriority="high"
+              as="image"
+              type="image/webp"
+              src={AndroidIcon}
+              alt="Android icon"
+            />
             <div>
               <h6>Android Apps</h6>
               <p>
@@ -25,7 +32,14 @@ function AppDevelopment() {
             </div>
           </Col>
           <Col md={{ span: 8 }}>
-            <img src={iosIcon} alt="ios icon" />
+            <img
+              rel="preload"
+              fetchpriority="high"
+              as="image"
+              type="image/webp"
+              src={iosIcon}
+              alt="ios icon"
+            />
             <div>
               <h6>iOS Apps</h6>
               <p>
@@ -35,7 +49,14 @@ function AppDevelopment() {
             </div>
           </Col>
           <Col md={{ span: 8 }}>
-            <img src={reactIcon} alt="react native icon" />
+            <img
+              rel="preload"
+              fetchpriority="high"
+              as="image"
+              type="image/webp"
+              src={reactIcon}
+              alt="react native icon"
+            />
             <div>
               <h6>Progressive Web Apps</h6>
               <p>

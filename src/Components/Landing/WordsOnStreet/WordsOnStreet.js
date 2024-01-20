@@ -3,10 +3,10 @@ import "./words-on-street.scss";
 import AOS from "aos";
 
 import TickIcon from "../../../Assets/images/tick.svg";
-import NycAppImg from "../../../Assets/images/nyc-app.png";
-import NipponApp from "../../../Assets/images/nippon-app.png";
-import AudiApp from "../../../Assets/images/audi-app.png";
-import Audit from "../../../Assets/images/audit.png";
+import NycAppImg from "../../../Assets/images/nyc-app.webp";
+import NipponApp from "../../../Assets/images/nippon-app.webp";
+import AudiApp from "../../../Assets/images/audi-app.webp";
+import Audit from "../../../Assets/images/audit.webp";
 import { useEffect } from "react";
 
 function WordsOnStreet() {
@@ -51,6 +51,10 @@ function WordsOnStreet() {
             </Col>
             <Col xl={12} className="img-col">
               <img
+                rel="preload"
+                fetchpriority="high"
+                as="image"
+                type="image/webp"
                 data-aos="fade-left"
                 data-aos-offset="250"
                 data-aos-duration="700"
@@ -67,6 +71,10 @@ function WordsOnStreet() {
               className="img-col"
             >
               <img
+                rel="preload"
+                fetchpriority="high"
+                as="image"
+                type="image/webp"
                 data-aos="fade-right"
                 data-aos-offset="250"
                 data-aos-duration="700"
@@ -150,6 +158,10 @@ function WordsOnStreet() {
             </Col>
             <Col xl={12} className="img-col">
               <img
+                rel="preload"
+                fetchpriority="high"
+                as="image"
+                type="image/webp"
                 data-aos="fade-left"
                 data-aos-offset="250"
                 data-aos-duration="700"
@@ -166,6 +178,10 @@ function WordsOnStreet() {
               className="img-col"
             >
               <img
+                rel="preload"
+                fetchpriority="high"
+                as="image"
+                type="image/webp"
                 data-aos="fade-right"
                 data-aos-offset="250"
                 data-aos-duration="700"
