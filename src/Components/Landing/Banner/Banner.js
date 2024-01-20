@@ -2,6 +2,8 @@ import "./banner.scss";
 
 import BannerBg from "../../../Assets/images/banner-bg.png";
 import BannerBgMobile from "../../../Assets/images/mobile-hero-img.png";
+import Scroll from "react-scroll";
+const ScrollLink = Scroll.Link;
 
 function Banner() {
   return (
@@ -17,7 +19,17 @@ function Banner() {
             We turn ideas into user-friendly, scalable mobile apps, fostering
             rapid adoption and sustainable growth.
           </p>
-          <button className="btn btn--white">Let’s talk</button>
+          <button className="btn btn--white">
+            <ScrollLink
+              to="contact-form"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={2000}
+            >
+              Let’s talk
+            </ScrollLink>
+          </button>
         </div>
       </div>
     </section>

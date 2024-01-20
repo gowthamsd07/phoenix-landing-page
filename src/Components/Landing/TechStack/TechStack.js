@@ -48,7 +48,7 @@ function TechStack() {
               </div>
             </div>
           </Col>
-          <Col xl={{ span: 8, offset: 2 }}>
+          <Col xs={24} xl={{ span: 10, offset: 2 }}>
             <div className="tech-stack-wrap">
               <img src={TechStack1} alt="swift logo" />
               <img src={TechStack2} alt="swift logo" />
