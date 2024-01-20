@@ -1,0 +1,57 @@
+.landing-appdev {
+  h2 {
+    max-width: 915px;
+    margin: 0 auto;
+  }
+
+  .ant-row {
+    margin-top: 56px;
+    justify-content: center;
+
+    .ant-col {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      @media (min-width: 768px) {
+        padding: 24px;
+      }
+
+      div {
+        margin-top: 48px;
+      }
+
+      img {
+        width: 120px;
+        border-radius: 35px;
+        box-shadow: 6.038px 18.114px 67.088px -8.721px rgba(22, 52, 80, 0.1);
+
+        @media (min-width: 1200px) {
+          width: 160px;
+        }
+      }
+
+      h6 {
+        color: #000;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 12px !important;
+      }
+
+      p {
+        color: #000;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        max-width: 327px;
+      }
+    }
+  }
+}

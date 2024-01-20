@@ -1,0 +1,50 @@
+.landing-why-phoenix {
+  .section-title {
+    @media (max-width: 767px) {
+      max-width: 240px;
+      margin: 0 auto;
+    }
+  }
+  &__wrap {
+    margin-top: 56px;
+
+    .ant-col {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 295px;
+      }
+
+      img {
+        margin-bottom: 24px;
+        width: 96px;
+      }
+
+      h4 {
+        margin-bottom: 8px !important;
+        color: #000;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
+      p {
+        margin-bottom: 0 !important;
+        color: #000;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+      }
+    }
+  }
+}

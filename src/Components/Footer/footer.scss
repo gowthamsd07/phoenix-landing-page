@@ -1,0 +1,121 @@
+footer {
+  .container {
+    padding: 32px 16px;
+    border-top: 1px solid #d8d8d8;
+  }
+
+  .ant-row {
+    @media (max-width: 767px) {
+      flex-direction: column;
+      gap: 32px;
+    }
+  }
+  .brand-logo {
+    width: 145px;
+    margin-bottom: 20px;
+  }
+
+  .copy-rights {
+    color: #5a5a5a;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .office-address {
+    & > div {
+      max-width: 220px;
+    }
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    img {
+      width: 34px;
+    }
+
+    h6 {
+      margin-bottom: 0;
+      color: #000;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+    }
+
+    p {
+      color: #5a5a5a;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      margin-bottom: 0;
+
+      &:last-child {
+        margin-top: 8px;
+      }
+    }
+  }
+
+  .social-media {
+    .title-wrap {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      @media (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+    .link-wrap {
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+
+      @media (min-width: 768px) {
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    h6 {
+      margin-bottom: 0;
+      color: #000;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+    }
+    a {
+      color: #5a5a5a;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      display: block;
+    }
+    .social-icons {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      @media (min-width: 768px) {
+        margin-top: 16px;
+      }
+
+      a {
+        margin-top: 0;
+      }
+    }
+  }
+}

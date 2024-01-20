@@ -1,0 +1,130 @@
+.container {
+  // padding-left: 16px !important;
+  // padding-right: 16px !important;
+  @media (min-width: 1200px) {
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+}
+.btn {
+  padding: 17px 55px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  &--primary {
+    color: #fff;
+    background: #3da4fe;
+    border-radius: 12px;
+    transition: all ease 0.5s;
+    border: 1px solid transparent;
+
+    &:hover {
+      background: transparent;
+      border: 1px solid #3da4fe;
+      color: #3da4fe;
+      transition: all ease 0.5s;
+    }
+  }
+
+  &--white {
+    background: #fff;
+    color: #090909;
+    padding: 16px 32px !important;
+    border-radius: 12px;
+    transition: all ease 0.5s;
+
+    &:hover {
+      background: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+      transition: all ease 0.5s;
+    }
+  }
+
+  &--white-big {
+    background: #fff;
+    color: #090909;
+    padding: 16px 0px !important;
+    border-radius: 12px;
+    width: 100%;
+    transition: all ease 0.5s;
+
+    &:hover {
+      background: transparent;
+      border: 1px solid #fff;
+      color: #fff;
+      transition: all ease 0.5s;
+    }
+  }
+}
+
+.section-title {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  line-height: 150%;
+  font-style: normal;
+  font-weight: 700;
+
+  @media (min-width: 1200px) {
+    font-size: 36px;
+    line-height: 150%;
+  }
+}
+
+.page-offset {
+  margin-top: 40px;
+
+  @media (min-width: 1200px) {
+    margin-top: 58px;
+  }
+}
+
+.section-padding {
+  padding-top: 80px;
+
+  @media (min-width: 1200px) {
+    padding-top: 120px !important;
+  }
+}
+
+.section-margin {
+  margin-top: 80px;
+
+  @media (min-width: 1200px) {
+    margin-top: 120px;
+  }
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-color-white {
+  color: #fff !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+main {
+  padding: 0 16px;
+}
