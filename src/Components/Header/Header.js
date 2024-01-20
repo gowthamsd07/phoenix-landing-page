@@ -1,5 +1,7 @@
 import "./header.scss";
 import PhoenixLogo from "../../Assets/images/phoenix-logo.svg";
+import Scroll from "react-scroll";
+const ScrollLink = Scroll.Link;
 
 function Header() {
   return (
@@ -10,7 +12,15 @@ function Header() {
         </div>
         <div>
           <button className="btn btn--primary">
-            <span>Let’s talk</span>
+            <ScrollLink
+              to="contact-form"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={2000}
+            >
+              <span>Let’s talk</span>
+            </ScrollLink>
           </button>
         </div>
       </nav>
