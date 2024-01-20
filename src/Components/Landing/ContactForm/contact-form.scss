@@ -64,12 +64,18 @@
       .ant-form-item-explain-error {
         margin-top: 15px;
       }
+
+      .ant-form-item-control-input-content {
+        display: flex;
+        justify-content: center;
+      }
     }
 
     .submit-btn {
       display: flex;
       justify-content: center;
       align-items: center;
+      width: 100%;
     }
 
     button {

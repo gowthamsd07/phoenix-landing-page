@@ -93,7 +93,7 @@ function ContactForm() {
               </Col>
             </Row>
             <div className="submit-btn">
-              <Form.Item>
+              <Form.Item className="w-100">
                 <button className="btn btn--white-big" htmltype="submit">
                   Get in touch
                 </button>
