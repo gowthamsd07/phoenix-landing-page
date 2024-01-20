@@ -11,7 +11,9 @@ import { useEffect } from "react";
 
 function WordsOnStreet() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      once: true,
+    });
   }, []);
   return (
     <section className="landing-words section-margin">
