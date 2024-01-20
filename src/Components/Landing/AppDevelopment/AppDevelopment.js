@@ -1,9 +1,9 @@
 import { Col, Row } from "antd";
 import "./app-development.scss";
 
-import AndroidIcon from "../../../Assets/images/icon-android.webp";
-import iosIcon from "../../../Assets/images/icon-ios.webp";
-import reactIcon from "../../../Assets/images/icon-reactnative.webp";
+import AndroidIcon from "../../../Assets/images/Icon-android.svg";
+import iosIcon from "../../../Assets/images/Icon-ios.svg";
+import reactIcon from "../../../Assets/images/Icon-reactnative.svg";
 
 function AppDevelopment() {
   return (
