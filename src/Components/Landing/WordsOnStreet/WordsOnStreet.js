@@ -36,6 +36,22 @@ function WordsOnStreet() {
                 <ul>
                   <li>
                     <img src={TickIcon} alt="tick" />
+                    <p>Ride booking and tracking</p>
+                  </li>
+                  <li>
+                    <img src={TickIcon} alt="tick" />
+                    <p>Schedule Booking</p>
+                  </li>
+                  <li>
+                    <img src={TickIcon} alt="tick" />
+                    <p>Seamless payments</p>
+                  </li>
+                  <li>
+                    <img src={TickIcon} alt="tick" />
+                    <p>Automatic fare calculator</p>
+                  </li>
+                  <li>
+                    <img src={TickIcon} alt="tick" />
                     <p>Discount Management </p>
                   </li>
                   <li>

@@ -25,7 +25,6 @@ function Footer() {
                 <h6>Phoenix Tech Labs</h6>
               </div>
               <p>128 City Road, London, United Kingdom, EC1V 2NX</p>
-              <p>+91 88266 75816</p>
             </div>
           </Col>
           <Col xl={{ span: 6, offset: 2 }} className="office-address india">
@@ -38,20 +37,28 @@ function Footer() {
                 147 Vipul Trade Center, Sohna - Gurgaon Rd, Sector 48, Gurugram,
                 Haryana 122001
               </p>
-              <p>+91 88266 75816</p>
+              <p>+91 9650016787</p>
             </div>
           </Col>
           <Col xl={{ span: 4 }} className="social-media">
             <div className="title-wrap">
               <h6>Follow us at</h6>
               <div className="social-icons">
-                <a target="_blank" href="www.facebook.com">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/people/Phoenix-Tech-Consulting/100063590600838/"
+                  rel="noreferrer"
+                >
                   <img src={FacebookIcon} alt="Facebook Icon" />
                 </a>
                 <a target="_blank" href="www.instagram.com">
                   <img src={InstaIcon} alt="Insta Icon" />
                 </a>
-                <a target="_blank" href="www.linkedin.com">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/company/phoenix-tech-consulting/"
+                  rel="noreferrer"
+                >
                   <img src={LinkedinIcon} alt="Linkedin Icon" />
                 </a>
                 <a target="_blank" href="www.twitter.com">

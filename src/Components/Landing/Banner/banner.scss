@@ -76,5 +76,25 @@
     button {
       margin-top: 40px;
     }
+
+    #spin-text:after {
+      content: '';
+      animation: spin 10s linear infinite;
+    }
+    @keyframes spin {
+      0% {
+        content: 'Scalable';
+      }
+      50% {
+        content: 'User-friendly';
+      }
+      100% {
+        content: 'Futuristic';
+      }
+    }
+
+    a {
+      color: #090909 !important;
+    }
   }
 }

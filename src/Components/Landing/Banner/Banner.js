@@ -28,7 +28,10 @@ function Banner() {
           />
         </picture>
         <div className="banner-content">
-          <h1>Building Mobile Apps with Experiences that are Scalable</h1>
+          <h1>
+            Building Mobile Apps with Experiences that are{" "}
+            <span id="spin-text"></span>
+          </h1>
           <p>
             We turn ideas into user-friendly, scalable mobile apps, fostering
             rapid adoption and sustainable growth.
